@@ -1,0 +1,6 @@
+2018-10-08 14:02:58 0 in C:\xampp\htdocs\i\user.class.php on line 94 NOT_NUMERIC Trace: #0 C:\xampp\htdocs\index.php(258): User->sign(NULL)
+#1 [internal function]: {closure}(Object(Klein\Request), Object(Klein\Response), Object(Klein\ServiceProvider), Object(Klein\App), Object(Klein\Klein), Object(Klein\DataCollection\RouteCollection), Array)
+#2 C:\xampp\htdocs\vendor\klein\klein\src\Klein\Klein.php(886): call_user_func(Object(Closure), Object(Klein\Request), Object(Klein\Response), Object(Klein\ServiceProvider), Object(Klein\App), Object(Klein\Klein), Object(Klein\DataCollection\RouteCollection), Array)
+#3 C:\xampp\htdocs\vendor\klein\klein\src\Klein\Klein.php(588): Klein\Klein->handleRouteCallback(Object(Klein\Route), Object(Klein\DataCollection\RouteCollection), Array)
+#4 C:\xampp\htdocs\index.php(317): Klein\Klein->dispatch()
+#5 {main}
